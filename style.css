@@ -1,0 +1,9 @@
+
+:root {
+  --brand-beige: #FBEAD6;
+}
+
+body {
+ background-color: var(--brand-beige);
+ font-family: "Roboto Condensed", sans-serif;
+}
