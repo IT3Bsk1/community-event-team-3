@@ -7,3 +7,8 @@ body {
  background-color: var(--brand-beige);
  font-family: "Roboto Condensed", sans-serif;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
