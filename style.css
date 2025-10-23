@@ -12,3 +12,29 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+#pozadiFooter{
+  display: flex;
+  flex-flow: vertical;
+  width: fill;
+  height: 600px;
+  justify-self: space-between;
+  padding: 40px;
+  background-color: #7AA4AD;
+}
+#footerDiv{
+  display: flex;
+  flex-flow: fill;
+  height:  54px;
+  max-width: 1500px;
+  justify-self: space-between;
+}
+#footerText1{
+  display: flex;
+  font-weight: 700;
+  font-style: bold;
+  size: 12px; 
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: auto;
+}
