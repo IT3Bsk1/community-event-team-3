@@ -1,9 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&display=swap');
+
 
 :root {
   --brand-beige: #FBEAD6;
 }
 
+
 body {
- background-color: var(--brand-beige);
- font-family: "Roboto Condensed", sans-serif;
+  background-color: var(--brand-beige);
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #fcebd3;
+}
+
+#head-crestmiddle {
+  float: left;
+}
+
+#head-contactus {
+  float: right;
+}
+
+#head-crestmiddle,
+#head-contactus {
+  font-size: 30px;
+  background-color: black;
+  color: #fcebd3;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+#head-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Asset", serif;
 }
